@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F55A8311AD37C5700A80F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F55A8301AD37C5700A80F0E /* main.m */; };
+		8F55A8341AD37C5700A80F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F55A8331AD37C5700A80F0E /* AppDelegate.m */; };
+		8F55A8371AD37C5700A80F0E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F55A8361AD37C5700A80F0E /* GameScene.m */; };
+		8F55A8391AD37C5700A80F0E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8F55A8381AD37C5700A80F0E /* GameScene.sks */; };
+		8F55A83C1AD37C5700A80F0E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F55A83B1AD37C5700A80F0E /* GameViewController.m */; };
+		8F55A83F1AD37C5700A80F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F55A83D1AD37C5700A80F0E /* Main.storyboard */; };
+		8F55A8411AD37C5700A80F0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F55A8401AD37C5700A80F0E /* Images.xcassets */; };
+		8F55A8441AD37C5700A80F0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F55A8421AD37C5700A80F0E /* LaunchScreen.xib */; };
+		8F55A8501AD37C5700A80F0E /* RokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F55A84F1AD37C5700A80F0E /* RokerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F55A84A1AD37C5700A80F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F55A8231AD37C5700A80F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F55A82A1AD37C5700A80F0E;
+			remoteInfo = Roker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F55A82B1AD37C5700A80F0E /* Roker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F55A82F1AD37C5700A80F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F55A8301AD37C5700A80F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F55A8321AD37C5700A80F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F55A8331AD37C5700A80F0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F55A8351AD37C5700A80F0E /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		8F55A8361AD37C5700A80F0E /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		8F55A8381AD37C5700A80F0E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8F55A83A1AD37C5700A80F0E /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		8F55A83B1AD37C5700A80F0E /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		8F55A83E1AD37C5700A80F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F55A8401AD37C5700A80F0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F55A8431AD37C5700A80F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8F55A8491AD37C5700A80F0E /* RokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F55A84E1AD37C5700A80F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F55A84F1AD37C5700A80F0E /* RokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RokerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F55A8281AD37C5700A80F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F55A8461AD37C5700A80F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F55A8221AD37C5700A80F0E = {
+			isa = PBXGroup;
+			children = (
+				8F55A82D1AD37C5700A80F0E /* Roker */,
+				8F55A84C1AD37C5700A80F0E /* RokerTests */,
+				8F55A82C1AD37C5700A80F0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F55A82C1AD37C5700A80F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F55A82B1AD37C5700A80F0E /* Roker.app */,
+				8F55A8491AD37C5700A80F0E /* RokerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F55A82D1AD37C5700A80F0E /* Roker */ = {
+			isa = PBXGroup;
+			children = (
+				8F55A8321AD37C5700A80F0E /* AppDelegate.h */,
+				8F55A8331AD37C5700A80F0E /* AppDelegate.m */,
+				8F55A8351AD37C5700A80F0E /* GameScene.h */,
+				8F55A8361AD37C5700A80F0E /* GameScene.m */,
+				8F55A8381AD37C5700A80F0E /* GameScene.sks */,
+				8F55A83A1AD37C5700A80F0E /* GameViewController.h */,
+				8F55A83B1AD37C5700A80F0E /* GameViewController.m */,
+				8F55A83D1AD37C5700A80F0E /* Main.storyboard */,
+				8F55A8401AD37C5700A80F0E /* Images.xcassets */,
+				8F55A8421AD37C5700A80F0E /* LaunchScreen.xib */,
+				8F55A82E1AD37C5700A80F0E /* Supporting Files */,
+			);
+			path = Roker;
+			sourceTree = "<group>";
+		};
+		8F55A82E1AD37C5700A80F0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F55A82F1AD37C5700A80F0E /* Info.plist */,
+				8F55A8301AD37C5700A80F0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F55A84C1AD37C5700A80F0E /* RokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F55A84F1AD37C5700A80F0E /* RokerTests.m */,
+				8F55A84D1AD37C5700A80F0E /* Supporting Files */,
+			);
+			path = RokerTests;
+			sourceTree = "<group>";
+		};
+		8F55A84D1AD37C5700A80F0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F55A84E1AD37C5700A80F0E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F55A82A1AD37C5700A80F0E /* Roker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F55A8531AD37C5700A80F0E /* Build configuration list for PBXNativeTarget "Roker" */;
+			buildPhases = (
+				8F55A8271AD37C5700A80F0E /* Sources */,
+				8F55A8281AD37C5700A80F0E /* Frameworks */,
+				8F55A8291AD37C5700A80F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roker;
+			productName = Roker;
+			productReference = 8F55A82B1AD37C5700A80F0E /* Roker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F55A8481AD37C5700A80F0E /* RokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F55A8561AD37C5700A80F0E /* Build configuration list for PBXNativeTarget "RokerTests" */;
+			buildPhases = (
+				8F55A8451AD37C5700A80F0E /* Sources */,
+				8F55A8461AD37C5700A80F0E /* Frameworks */,
+				8F55A8471AD37C5700A80F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F55A84B1AD37C5700A80F0E /* PBXTargetDependency */,
+			);
+			name = RokerTests;
+			productName = RokerTests;
+			productReference = 8F55A8491AD37C5700A80F0E /* RokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F55A8231AD37C5700A80F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = chuanshaungzhang;
+				TargetAttributes = {
+					8F55A82A1AD37C5700A80F0E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8F55A8481AD37C5700A80F0E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8F55A82A1AD37C5700A80F0E;
+					};
+				};
+			};
+			buildConfigurationList = 8F55A8261AD37C5700A80F0E /* Build configuration list for PBXProject "Roker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F55A8221AD37C5700A80F0E;
+			productRefGroup = 8F55A82C1AD37C5700A80F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F55A82A1AD37C5700A80F0E /* Roker */,
+				8F55A8481AD37C5700A80F0E /* RokerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F55A8291AD37C5700A80F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F55A8441AD37C5700A80F0E /* LaunchScreen.xib in Resources */,
+				8F55A8411AD37C5700A80F0E /* Images.xcassets in Resources */,
+				8F55A8391AD37C5700A80F0E /* GameScene.sks in Resources */,
+				8F55A83F1AD37C5700A80F0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F55A8471AD37C5700A80F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F55A8271AD37C5700A80F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F55A83C1AD37C5700A80F0E /* GameViewController.m in Sources */,
+				8F55A8341AD37C5700A80F0E /* AppDelegate.m in Sources */,
+				8F55A8371AD37C5700A80F0E /* GameScene.m in Sources */,
+				8F55A8311AD37C5700A80F0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F55A8451AD37C5700A80F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F55A8501AD37C5700A80F0E /* RokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F55A84B1AD37C5700A80F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F55A82A1AD37C5700A80F0E /* Roker */;
+			targetProxy = 8F55A84A1AD37C5700A80F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F55A83D1AD37C5700A80F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F55A83E1AD37C5700A80F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F55A8421AD37C5700A80F0E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F55A8431AD37C5700A80F0E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F55A8511AD37C5700A80F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F55A8521AD37C5700A80F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F55A8541AD37C5700A80F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F55A8551AD37C5700A80F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F55A8571AD37C5700A80F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roker.app/Roker";
+			};
+			name = Debug;
+		};
+		8F55A8581AD37C5700A80F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roker.app/Roker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F55A8261AD37C5700A80F0E /* Build configuration list for PBXProject "Roker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F55A8511AD37C5700A80F0E /* Debug */,
+				8F55A8521AD37C5700A80F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F55A8531AD37C5700A80F0E /* Build configuration list for PBXNativeTarget "Roker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F55A8541AD37C5700A80F0E /* Debug */,
+				8F55A8551AD37C5700A80F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F55A8561AD37C5700A80F0E /* Build configuration list for PBXNativeTarget "RokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F55A8571AD37C5700A80F0E /* Debug */,
+				8F55A8581AD37C5700A80F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F55A8231AD37C5700A80F0E /* Project object */;
+}
