@@ -16,6 +16,10 @@
 		8F55A8411AD37C5700A80F0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F55A8401AD37C5700A80F0E /* Images.xcassets */; };
 		8F55A8441AD37C5700A80F0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F55A8421AD37C5700A80F0E /* LaunchScreen.xib */; };
 		8F55A8501AD37C5700A80F0E /* RokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F55A84F1AD37C5700A80F0E /* RokerTests.m */; };
+		8F8701201ADB4EC500706B2A /* Map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F87011F1ADB4EC500706B2A /* Map@2x.png */; };
+		8F8701261ADB54A600706B2A /* Cube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8701251ADB54A600706B2A /* Cube@2x.png */; };
+		8F8701281ADB5A2000706B2A /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8701271ADB5A2000706B2A /* test@2x.png */; };
+		8F87012B1ADB5F0C00706B2A /* RKSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F87012A1ADB5F0C00706B2A /* RKSpriteNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,11 @@
 		8F55A8491AD37C5700A80F0E /* RokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F55A84E1AD37C5700A80F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F55A84F1AD37C5700A80F0E /* RokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RokerTests.m; sourceTree = "<group>"; };
+		8F87011F1ADB4EC500706B2A /* Map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map@2x.png"; sourceTree = "<group>"; };
+		8F8701251ADB54A600706B2A /* Cube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cube@2x.png"; sourceTree = "<group>"; };
+		8F8701271ADB5A2000706B2A /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
+		8F8701291ADB5F0C00706B2A /* RKSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSpriteNode.h; sourceTree = "<group>"; };
+		8F87012A1ADB5F0C00706B2A /* RKSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSpriteNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,9 @@
 		8F55A82D1AD37C5700A80F0E /* Roker */ = {
 			isa = PBXGroup;
 			children = (
+				8F87011F1ADB4EC500706B2A /* Map@2x.png */,
+				8F8701271ADB5A2000706B2A /* test@2x.png */,
+				8F8701251ADB54A600706B2A /* Cube@2x.png */,
 				8F55A8321AD37C5700A80F0E /* AppDelegate.h */,
 				8F55A8331AD37C5700A80F0E /* AppDelegate.m */,
 				8F55A8351AD37C5700A80F0E /* GameScene.h */,
@@ -93,6 +105,8 @@
 				8F55A8381AD37C5700A80F0E /* GameScene.sks */,
 				8F55A83A1AD37C5700A80F0E /* GameViewController.h */,
 				8F55A83B1AD37C5700A80F0E /* GameViewController.m */,
+				8F8701291ADB5F0C00706B2A /* RKSpriteNode.h */,
+				8F87012A1ADB5F0C00706B2A /* RKSpriteNode.m */,
 				8F55A83D1AD37C5700A80F0E /* Main.storyboard */,
 				8F55A8401AD37C5700A80F0E /* Images.xcassets */,
 				8F55A8421AD37C5700A80F0E /* LaunchScreen.xib */,
@@ -210,7 +224,10 @@
 				8F55A8441AD37C5700A80F0E /* LaunchScreen.xib in Resources */,
 				8F55A8411AD37C5700A80F0E /* Images.xcassets in Resources */,
 				8F55A8391AD37C5700A80F0E /* GameScene.sks in Resources */,
+				8F8701261ADB54A600706B2A /* Cube@2x.png in Resources */,
 				8F55A83F1AD37C5700A80F0E /* Main.storyboard in Resources */,
+				8F8701281ADB5A2000706B2A /* test@2x.png in Resources */,
+				8F8701201ADB4EC500706B2A /* Map@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F55A83C1AD37C5700A80F0E /* GameViewController.m in Sources */,
+				8F87012B1ADB5F0C00706B2A /* RKSpriteNode.m in Sources */,
 				8F55A8341AD37C5700A80F0E /* AppDelegate.m in Sources */,
 				8F55A8371AD37C5700A80F0E /* GameScene.m in Sources */,
 				8F55A8311AD37C5700A80F0E /* main.m in Sources */,
@@ -307,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -343,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +373,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Roker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -365,7 +385,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Roker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,6 +446,7 @@
 				8F55A8551AD37C5700A80F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F55A8561AD37C5700A80F0E /* Build configuration list for PBXNativeTarget "RokerTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +455,7 @@
 				8F55A8581AD37C5700A80F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
